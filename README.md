@@ -26,22 +26,21 @@ This project implements a real-time sign language detection system using a fine-
    cd sign-language-detector
 Install the required packages:
 
-bash
-Copy code
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 Ensure you have the YOLOv5 weights file (e.g., signlang.pt) in the correct directory.
 
-Usage
+
+## Usage
 To run the sign language detection with webcam input, use the following command:
 
-bash
-Copy code
-python detect.py --weights signlang.pt --source 0
-Custom Image Dataset Builder
+ ```bash
+   python detect.py --weights signlang.pt --source 0
+
+
+## Custom Image Dataset Builder
 This feature includes a Python script that automatically captures and labels images for building a custom dataset.
 Images are saved in an organized directory structure, facilitating efficient dataset preparation.
-Acknowledgments
+## Acknowledgments
 Thanks to the developers of YOLOv5 and OpenCV for their contributions to the field of computer vision.
 Special thanks to any collaborators or mentors who assisted in the development of this project.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
